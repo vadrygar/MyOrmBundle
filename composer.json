@@ -1,0 +1,11 @@
+{
+    "name": "vadrygar/orm-bundle",
+    "type": "symfony-bundle",
+    "description": "Simple ORM",
+    "autoload": {
+        "psr-0" : {
+            "Vadrygar/OrmBundle": ""
+        }
+    },
+    "target-dir": "Vadrygar/OrmBundle"
+}
