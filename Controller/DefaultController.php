@@ -12,6 +12,8 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
+        var_dump('toto');
+        die('prout');
         return $this->render('VadrygarOrmBundle:Default:index.html.twig');
     }
 }
